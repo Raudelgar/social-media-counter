@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+.team {
+	width: 40px;
+	color: #ffff;
+	border-radius: 15%;
+}
+#insta {
+	background-color: #af2097;
+}
+#fb {
+	background-color: #124ba0;
+}
+#tw {
+	background-color: #6a92ec;
+}
+.voter {
+	margin: 10px 0;
+}
+.date {
+	margin-bottom: 10px;
+}

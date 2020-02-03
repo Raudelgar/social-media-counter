@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Counter APP</title>
+		<link rel="stylesheet" href="./styles/main.css" />
+	</head>
+	<body>
+		<h1>Daily Social Media Counter</h1>
+		<div class="date">Today is: <span id="today"></span></div>
+		<div id="counter">
+			<div class="voter">
+				<span>Instragram: </span>
+				<input type="button" value="0" data-counter id="insta" class="team" />
+			</div>
+			<div class="voter">
+				<span>Facebook: </span>
+				<input type="button" value="0" data-counter id="fb" class="team" />
+			</div>
+			<div class="voter">
+				<span>Twitter: </span>
+				<input type="button" value="0" data-counter id="tw" class="team" />
+			</div>
+			<button data-reset>Reset Counter</button>
+		</div>
+
+		<script type="module" src="./scripts/main.js"></script>
+	</body>
+</html>
